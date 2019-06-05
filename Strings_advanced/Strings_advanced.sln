@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_Kata_CountChars", "2_Kata
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_LikeLike", "3_LikeLike\3_LikeLike.csproj", "{8B0ED4D6-ABD0-4598-9ED1-B75AC1862397}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_SantaHo", "4_SantaHo\4_SantaHo.csproj", "{864303AD-9520-47CA-97BE-671CC6EA9AAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8B0ED4D6-ABD0-4598-9ED1-B75AC1862397}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B0ED4D6-ABD0-4598-9ED1-B75AC1862397}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B0ED4D6-ABD0-4598-9ED1-B75AC1862397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{864303AD-9520-47CA-97BE-671CC6EA9AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864303AD-9520-47CA-97BE-671CC6EA9AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864303AD-9520-47CA-97BE-671CC6EA9AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864303AD-9520-47CA-97BE-671CC6EA9AAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
