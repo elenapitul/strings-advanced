@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Middle Character", "1_Mid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_Kata_CountChars", "2_Kata_CountChars\2_Kata_CountChars.csproj", "{1E8B6862-9828-4DCF-B793-843283DE6E9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_LikeLike", "3_LikeLike\3_LikeLike.csproj", "{8B0ED4D6-ABD0-4598-9ED1-B75AC1862397}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1E8B6862-9828-4DCF-B793-843283DE6E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E8B6862-9828-4DCF-B793-843283DE6E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E8B6862-9828-4DCF-B793-843283DE6E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B0ED4D6-ABD0-4598-9ED1-B75AC1862397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B0ED4D6-ABD0-4598-9ED1-B75AC1862397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B0ED4D6-ABD0-4598-9ED1-B75AC1862397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B0ED4D6-ABD0-4598-9ED1-B75AC1862397}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
