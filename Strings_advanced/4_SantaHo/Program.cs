@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace _4_SantaHo
 {
@@ -9,25 +10,28 @@ namespace _4_SantaHo
             Console.WriteLine(Ho("")); //Ho!
             Console.WriteLine(Ho(Ho(""))); //Ho Ho!
             Console.WriteLine(Ho(Ho(Ho("")))); //Ho Ho Ho!
+
+            //Console.WriteLine((Ho(Ho(Ho(Ho(""))))));
         }
-                
+
         public static string Ho(string ho)
         {
-            if(ho == "")
+            StringBuilder sb = new StringBuilder();
+
+            if (string.IsNullOrEmpty(ho))
             {
-                return "Ho!";
-            } else if (ho == "Ho!")
-            {
-                return "Ho Ho!";
-            } else if (ho == "Ho Ho!")
-            {
-                return "Ho Ho Ho!";
+                ho = "Ho";
+                sb = sb.Append(ho);
+                return $"{sb.ToString()}!";
             }
-            else
-            {
-                return "";
-            }           
-        }           
+            else while (!string.IsNullOrEmpty(ho))
+                {
+                    sb = sb.Append(ho, 0, 2).Append(" ").Append(ho);
+                    return $"{sb.ToString()}";
+                }
+            return "";
+
+        }
 
     }
 }

@@ -21,6 +21,9 @@ namespace _3_LikeLike
             string[] fournames = { "Alex", "Jacob", "Mark", "Max" };
             Like(fournames);
 
+            string[] fivenames = { "Ana", "Ana-Maria", "Anamaria", "Mariana", "Maria" };
+            Like(fivenames);
+
         }
         public static void Like(string[] names)
         {
